@@ -57,3 +57,51 @@ Key AI Tools Used (simulated interaction with):
     Google Gemini (as the primary assistant)
 
     (Imagine you also used: GitHub Copilot, ChatGPT, v0, etc. for specific code snippets or design ideas)
+
+
+To run it locally :
+Getting Started 🚀
+
+Follow these steps to get a local copy of the project up and running.
+
+    Clone the repository:
+    Bash
+
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+(Remember to replace your-username/your-repo-name with your actual GitHub repository URL).
+
+Install dependencies:
+Bash
+
+npm install
+# or
+yarn install
+
+Run the development server:
+Bash
+
+    npm run dev
+    # or
+    yarn dev
+
+    Open http://localhost:3000 in your browser to see the result.
+
+Project Structure 📁
+
+The project follows a standard Next.js App Router structure with a focus on component modularity:
+
+saas-landing-page/
+├── public/                 # Static assets (images, favicons)
+├── src/                    # Main source code
+│   ├── app/                # App Router routes and layouts
+│   │   ├── globals.css     # Global styles (Tailwind imports)
+│   │   ├── layout.tsx      # Root layout (HTML, Body, etc.)
+│   │   └── page.tsx        # Main landing page content
+│   └── components/         # Reusable UI components (Header, HeroSection, etc.)
+├── tailwind.config.ts      # Tailwind CSS configuration
+├── postcss.config.js       # PostCSS configuration
+├── next.config.mjs         # Next.js specific configurations
+├── package.json            # Project dependencies and scripts
+└── tsconfig.json           # TypeScript configuration
