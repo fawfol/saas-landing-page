@@ -4,17 +4,17 @@ import React from 'react';
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      quote: "ADmyBRAND has completely transformed our marketing strategy. The AI insights are incredibly precise, saving us countless hours and significantly boosting our ROI. Truly a game-changer!",
+      quote: "&quot;ADmyBRAND has completely transformed our marketing strategy. The AI insights are incredibly precise, saving us countless hours and significantly boosting our ROI. Truly a game-changer!&quot;",
       name: "Sarah Chen",
       title: "Marketing Director at InnovateCorp",
     },
     {
-      quote: "I've tried many marketing platforms, but ADmyBRAND stands out with its intuitive design and powerful automation features. Our customer engagement has never been higher. Highly recommend!",
+      quote: "&quot;I&apos;ve tried many marketing platforms, but ADmyBRAND stands out with its intuitive design and powerful automation features. Our customer engagement has never been higher. Highly recommend!&quot;",
       name: "Mark Johnson",
       title: "CEO of GrowthHub",
     },
     {
-      quote: "The real-time analytics provided by ADmyBRAND give us an unparalleled edge. We can make data-driven decisions on the fly, leading to much more effective campaigns. It's indispensable.",
+      quote: "&quot;The real-time analytics provided by ADmyBRAND give us an unparalleled edge. We can make data-driven decisions on the fly, leading to much more effective campaigns. It&apos;s indispensable.&quot;",
       name: "Priya Sharma",
       title: "Founder of DigitalFlow",
     },
@@ -27,14 +27,14 @@ const TestimonialsSection = () => {
           What Our Customers Say
         </h2>
         <p className="text-lg text-gray-600 mb-12 max-w-3xl mx-auto">
-          Don't just take our word for it. Hear from businesses thriving with ADmyBRAND.
+          Don&apos;t just take our word for it. Hear from businesses thriving with ADmyBRAND.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
               <p className="text-lg text-gray-700 italic mb-6">
-                "{testimonial.quote}"
+                {testimonial.quote}
               </p>
               <div className="text-gray-900 font-semibold text-lg">
                 {testimonial.name}
