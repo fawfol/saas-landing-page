@@ -4,7 +4,7 @@ import HeroSection from '@/components/HeroSection';
 import FeaturesSection from '@/components/FeaturesSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import CtaSection from '@/components/CtaSection';
-import Footer from '@/components/Footer'; // Import the new component
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <FeaturesSection />
       <TestimonialsSection />
       <CtaSection />
-      <Footer /> {/* Add the Footer here */}
+      <Footer />
     </main>
   );
 }
