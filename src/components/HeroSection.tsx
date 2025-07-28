@@ -1,6 +1,7 @@
 // src/components/HeroSection.tsx
 import Image from 'next/image';
 import Link from 'next/link';
+import React from 'react'; // Ensure React is imported
 
 const HeroSection = () => {
   return (
@@ -9,7 +10,7 @@ const HeroSection = () => {
         {/* Left Content Area (Text and Buttons) */}
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
-            Unlock Your Brand's Potential with AI
+            Unlock Your Brand&apos;s Potential with AI
           </h1>
           <p className="text-lg md:text-xl opacity-90 mb-8 max-w-2xl mx-auto md:mx-0">
             Revolutionize your marketing strategies with cutting-edge AI insights and automation. Grow smarter, not harder.
