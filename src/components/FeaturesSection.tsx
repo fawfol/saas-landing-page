@@ -56,7 +56,7 @@ const FeaturesSection = () => {
           Powerful Features Designed for You
         </h2>
         <p className="text-lg text-gray-600 mb-12 max-w-3xl mx-auto">
-          Discover how ADmyBRAND's cutting-edge capabilities can transform your marketing efforts and drive unparalleled growth.
+          Discover how ADmyBRAND&apos;s cutting-edge capabilities can transform your marketing efforts and drive unparalleled growth.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
