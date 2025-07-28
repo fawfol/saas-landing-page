@@ -1,6 +1,6 @@
 // src/components/Header.tsx
 import Link from 'next/link';
-import React, { useState } from 'react'; // Import useState for mobile menu
+import { useState } from 'react'; // <--- ONLY import useState, NOT React
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
